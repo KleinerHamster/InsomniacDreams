@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <!--Таблица данных с видами сна-->
+    <androidx.cardview.widget.CardView
+        style="@style/MyCard.Table">
+
+        <TextView
+            style="@style/CustomSplashScreenTittle.Diagram"
+            android:text="@string/types_of_dream_di"/>
+
+        <!-- Шапка таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextTable"
+                android:layout_marginStart="20dp"
+                android:text="@string/simple_sleep"/>
+
+            <TextView
+                style="@style/TextTable"
+                android:text="@string/lucid_sleep"/>
+
+            <TextView
+                style="@style/TextTable"
+                android:layout_width="100dp"
+                android:text="@string/semi_sleep"/>
+        </LinearLayout>
+
+        <!-- Данные таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/simpleTable"
+                style="@style/TextTable.Row"
+                android:layout_marginStart="20dp"
+                android:text="50%"/>
+
+            <TextView
+                android:id="@+id/lucidTable"
+                style="@style/TextTable.Row"
+                android:text="35%"/>
+
+            <TextView
+                android:id="@+id/semiTable"
+                style="@style/TextTable.Row"
+                android:layout_width="100dp"
+                android:text="25%"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--Таблица данных с эмоциями-->
+    <androidx.cardview.widget.CardView
+        style="@style/MyCard.Table"
+        android:layout_height="135dp">
+
+        <TextView
+            style="@style/CustomSplashScreenTittle.Diagram"
+            android:text="@string/mood_di"/>
+
+        <!-- Шапка таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/ImageViewTable"
+                android:layout_marginStart="40dp"
+                android:src="@drawable/amizingdisable"/>
+
+            <ImageView
+                style="@style/ImageViewTable"
+                android:src="@drawable/gooddisable"/>
+
+            <ImageView
+                style="@style/ImageViewTable"
+                android:src="@drawable/normaldisable"/>
+
+            <ImageView
+                style="@style/ImageViewTable"
+                android:src="@drawable/badnormaldisable"/>
+
+            <ImageView
+                style="@style/ImageViewTable"
+                android:src="@drawable/badendisable"/>
+        </LinearLayout>
+
+        <!-- Данные таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp">
+
+            <TextView
+                android:id="@+id/amazingTable"
+                style="@style/TextTableRowMood"
+                android:layout_marginStart="40dp"
+                android:text="35%"/>
+
+            <TextView
+                android:id="@+id/goodTable"
+                style="@style/TextTableRowMood"
+                android:text="15%"/>
+
+            <TextView
+                android:id="@+id/normalTable"
+                style="@style/TextTableRowMood"
+                android:text="25%"/>
+
+            <TextView
+                android:id="@+id/badNormalTable"
+                style="@style/TextTableRowMood"
+                android:text="5%"/>
+
+            <TextView
+                android:id="@+id/badTable"
+                style="@style/TextTableRowMood"
+                android:text="20%"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--Таблица данных с временем сна-->
+    <androidx.cardview.widget.CardView
+        style="@style/MyCard.Table">
+
+        <TextView
+            style="@style/CustomSplashScreenTittle.Diagram"
+            android:text="@string/sleep_time"/>
+
+        <!-- Шапка таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextTable"
+                android:layout_marginStart="20dp"
+                android:text="@string/night_sleep"/>
+
+            <TextView
+                style="@style/TextTable"
+                android:text="@string/morning_sleep"/>
+
+            <TextView
+                style="@style/TextTable"
+                android:layout_width="100dp"
+                android:text="@string/daytime_sleep"/>
+        </LinearLayout>
+
+        <!-- Данные таблицы-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/nightTable"
+                style="@style/TextTable.Row"
+                android:layout_marginStart="20dp"
+                android:text="50%"/>
+
+            <TextView
+                android:id="@+id/morningTable"
+                style="@style/TextTable.Row"
+                android:text="35%"/>
+
+            <TextView
+                android:id="@+id/daytimeTable"
+                style="@style/TextTable.Row"
+                android:layout_width="100dp"
+                android:text="25%"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

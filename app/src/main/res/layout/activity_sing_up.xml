@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/CustomSplashScreenTittle"
+            android:layout_marginTop="90dp"
+            android:text="@string/registration_label"
+            android:layout_gravity="center"/>
+
+        <!--ввод имени-->
+        <TextView
+            style="@style/CustomSplashScreenTittle.Label"
+            android:layout_marginTop="30dp"
+            android:text="@string/name_textview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_input"
+            style="@style/MyTextField">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_edit"
+                style="@style/MyEditText"  />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--ввод фамилии-->
+        <TextView
+            style="@style/CustomSplashScreenTittle.Label"
+            android:layout_marginTop="15dp"
+            android:text="@string/surname_textview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/surname_input"
+            style="@style/MyTextField">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/surname_edit"
+                style="@style/MyEditText"  />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--ввод email-->
+        <TextView
+            style="@style/CustomSplashScreenTittle.Label"
+            android:layout_marginTop="15dp"
+            android:text="@string/email_textview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_input"
+            style="@style/MyTextField">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_edit"
+                style="@style/MyEditText.Email"  />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--ввод пароля-->
+        <TextView
+            style="@style/CustomSplashScreenTittle.Label"
+            android:layout_marginTop="15dp"
+            android:text="@string/password_textview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_input"
+            style="@style/MyTextField.Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_edit"
+                style="@style/MyEditText.Password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--подтверждение пароля-->
+        <TextView
+            style="@style/CustomSplashScreenTittle.Label"
+            android:layout_marginTop="15dp"
+            android:text="@string/confirm_password_textview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_password_input"
+            style="@style/MyTextField.Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confirm_password_edit"
+                style="@style/MyEditText.Password" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--кнопка регитсрации-->
+        <Button
+            android:id="@+id/button_sing_up"
+            android:text="@string/button_sing_up"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            style="@style/MyButtonMain"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

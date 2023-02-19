@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+    <TextView
+        android:id="@+id/textView"
+        style="@style/CustomSplashScreenTittle"
+        android:text="@string/menu_dream_book"
+        android:layout_gravity="center"/>
+
+    <!--  SearchView - поиск значений  -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        app:theme="@style/AppSearchView"
+        style="@style/MySearchView"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        app:queryHint="@string/search_hint"/>
+    <!--RecyclerView - словарь снов-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recyclerView_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:listitem="@layout/item_dream_book" />
+</LinearLayout>

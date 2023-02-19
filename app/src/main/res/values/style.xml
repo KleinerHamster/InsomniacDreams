@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--стиль для TextView на Splash Screen-->
+    <style name="CustomSplashScreenTittle" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="layout_constraintHorizontal_bias">0.497</item>
+        <item name="layout_constraintVertical_bias">0.576</item>
+    </style>
+
+    <!--стиль для TextView на SingIn-->
+    <style name="CustomSplashScreenTittle.Label">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <!--стиль для TextView на SingIn-->
+    <style name="CustomSplashScreenTittle.LabelAnswer">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--стиль для TextView на SingIn-->
+    <style name="CustomSplashScreenTittle.LabelAnswer1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--стиль для Outlined Box-->
+    <style name="MyTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_color</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="layout_constraintHorizontal_bias">0.316</item>
+        <item name="endIconTint">@color/text_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--стиль для Outlined Box с показом символов в пароле-->
+    <style name="MyTextField.Password">
+        <item name="endIconMode">password_toggle</item>
+    </style>
+
+    <!--стиль для ввода в Outlined Box -->
+    <style name="MyEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!--стиль для ввода в Outlined Box пароля-->
+    <style name="MyEditText.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <!--стиль для ввода в Outlined Box email-->
+    <style name="MyEditText.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <!--создаем собственный стиль кнопок -->
+    <style name="MyButtonMain" parent="ThemeOverlay.Material3.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/background_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">130dp</item>
+    </style>
+
+    <!--стиль для SearchView-->
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:textColorHint">@color/text_color</item>
+        <item name="android:tint">@color/text_color</item>
+    </style>
+    <style name="MySearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="iconifiedByDefault">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/search_view_bg</item>
+    </style>
+
+    <!--стиль для TextView для просмотра слова-->
+    <style name="MyCustomTextView" parent="ThemeOverlay.Material3.AutoCompleteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!--стиль для ImageView на ффрагменте журнал-->
+    <style name="MyImageView">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+    </style>
+
+    <!--стиль для TextView Profile-->
+    <style name="CustomSplashScreenTittle.Profile">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_blue</item>
+    </style>
+
+    <style name="MyLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/color_bottom</item>
+    </style>
+
+    <!--стиль для EditText-->
+    <style name="MyEditTextProfile" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="backgroundTint">@color/color_bottom</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColorHint">@color/color_bottom</item>
+    </style>
+
+
+    <!--стиль для EditText для ввода почты-->
+    <style name="MyEditTextProfile.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <!--стиль для EditText для ввода пароля-->
+    <style name="MyEditTextProfile.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <!--стиль для Outlined Box-->
+    <style name="MyTextFieldAddDream" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_color</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--стиль для ввода в Outlined Box -->
+    <style name="MyEditTextAddDream" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/color_bottom</item>
+    </style>
+
+    <!--стиль для CardView-->
+    <style name="MyCard" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">275dp</item>
+        <item name="android:layout_margin">25dp</item>
+        <item name="cardBackgroundColor">@color/line_color</item>
+        <item name="cardCornerRadius">25dp</item>
+    </style>
+
+    <!--стиль текста -->
+    <style name="CustomSplashScreenTittle.Diagram">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!--стиль для BarChart-->
+    <style name="MyBarChart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <!-- Стиль шапки таблицы-->
+    <style name="TextTable" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/bg_data</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/bottom_nav_color</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <!-- Стиль данных таблицы-->
+    <style name="TextTable.Row">
+        <item name="android:background">@drawable/bg_data_row</item>
+    </style>
+
+    <!--стиль для CardView-->
+    <style name="MyCard.Table">
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <!-- Стиль шапки таблицы для настроения -->
+    <style name="ImageViewTable">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/bg_data</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <!-- Стиль шапки таблицы-->
+    <style name="TextTableRowMood" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/bg_data_row</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/bottom_nav_color</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <!--стиль ImageView-->
+    <style name="MyImageViewAccount">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+</resources>

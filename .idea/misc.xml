@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/account_icon.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/add_icon_dream.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/add_new_dream.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/back.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/background_button.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/background_content_top.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/background_received_message.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/background_sent_message.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/backround_chat_input.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/bg.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/bg_data.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/bg_data_row.xml" value="0.2365" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/icon_dream_book.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/icon_journal_not.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/icon_statistics.xml" value="0.2525" />
+        <entry key="app/src/main/res/drawable/journal_selector.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/search_view_bg.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/selector_item.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/selector_journal.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/shape.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/splash.xml" value="0.101" />
+        <entry key="app/src/main/res/layout/activity_account.xml" value="0.30158386230468753" />
+        <entry key="app/src/main/res/layout/activity_add_dream.xml" value="0.33251800537109377" />
+        <entry key="app/src/main/res/layout/activity_change_dream.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.39941965738932295" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/activity_main_screen.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/activity_sing_in.xml" value="0.34497816593886466" />
+        <entry key="app/src/main/res/layout/activity_sing_up.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/fragment_diagrams.xml" value="0.38005269368489586" />
+        <entry key="app/src/main/res/layout/fragment_dream_book.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_journal.xml" value="0.2425249169435216" />
+        <entry key="app/src/main/res/layout/fragment_statistic.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/fragment_table.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_word_meaning.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/item_container.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/item_container_received_message.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/item_container_sent_message.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/item_dream_book.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/layout/item_dreams.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_dreams_mounth.xml" value="0.40989583333333335" />
+        <entry key="app/src/main/res/layout/word_dream_book.xml" value="0.31431159420289856" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2525" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2525" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

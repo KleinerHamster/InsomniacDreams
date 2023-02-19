@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/dreamLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/line_color">
+    </LinearLayout>
+
+    <!--RecyclerView - словарь снов-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_main_dreams"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/word_dream_book"/>
+</LinearLayout>

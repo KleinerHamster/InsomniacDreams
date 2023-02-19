@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "619903577145",
+    "project_id": "insomniac-dreams",
+    "storage_bucket": "insomniac-dreams.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619903577145:android:e39e9ef28e9e195acc71e8",
+        "android_client_info": {
+          "package_name": "com.example.insomniacdreams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619903577145-0eam4rjdtmk3j1tpussmumk3b2fudqos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIokFdvm8ZikaPNtuN3kD-yYFZ_v8tv8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619903577145-0eam4rjdtmk3j1tpussmumk3b2fudqos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
